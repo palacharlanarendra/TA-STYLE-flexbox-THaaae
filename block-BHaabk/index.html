@@ -1,0 +1,86 @@
+<!-- 
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the brand name to the left and all the navigation to the right.
+
+4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
+
+5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
+
+6. After the gallery section footer will come.
+
+7. Use flexbox properties and values to create columns.
+ -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link rel="stylesheet" href="assets/styles/styles.css"/>
+ </head>
+<body>
+    <section>
+        <header class="header">
+            <div class="container">
+                <div class="wrapper">
+                    <div class="brand">
+                        <a href=#>
+                            <img src="assets/images/airbrake.svg" alt="Airbrake"/>
+                        </a>
+                    </div>
+                    <nav class="nav">
+                        <a href="Home">Home</a>
+                        <a href="Home">About</a>
+                        <a href="Home">Contact Us</a>
+                    </nav>
+                </div>
+                
+            </div>
+        </header>
+        <main>
+            <div class="container">
+                <section class="article-section">
+                    <article class="article">
+                        <section class="col">
+                            <h1>India's No.1 Pneumatic Brake's Manufacturer</h1>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita qui aliquid nihil fuga. Aut reiciendis distinctio ad commodi veniam tempora, similique repellat, sequi necessitatibus eos voluptatibus odit officia quis libero!
+                            Quisquam, quae fuga labore cupiditate aliquam, mollitia consectetur laboriosam reprehenderit quas est nisi voluptatem sequi beatae pariatur laudantium assumenda illum eos dicta? Quos voluptates suscipit incidunt architecto quisquam laborum natus.
+                           
+                        </p>
+                        </section>
+                        <section class="col">
+                            <img src="https://3.imimg.com/data3/EB/OD/GLADMIN-35152/pneumatic-brakes-500x500.jpg" alt="Pneumatic Brakes"/>
+                        </section>
+                    </article>
+                </section>
+                <section class="gallery-section">
+                    <div class="gallery-row">
+                        <img src="https://media.istockphoto.com/photos/movement-of-vehicles-along-the-production-line-at-the-plant-car-shop-picture-id1066926898?k=6&m=1066926898&s=612x612&w=0&h=UTK3gvsRySGyjeJmgoHHQ-iLtZEDtQVLbMCqa7aPGF4=" alt="car1"/>
+                        <img src="https://cdn.datafloq.com/cache/blog_images/878x531/car-manufacturers-are-using-big-data.jpg" alt="car2"/>
+                        <img src="https://www.mnkindustry.com/wp-content/uploads/2017/09/car_industry-13.jpg" alt="car3"/>
+                        <img src="https://electrical-engineering-portal.com/wp-content/uploads/2018/05/design-primary-secondary-power-distribution-car-manufacturing-plants.jpg" alt="car4"/>
+                        <img src="https://img.rolandberger.com/content_assets/content_images/captions/roland_berger_automotive_production_it_image_caption_none.jpg" alt="car5"/>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjrVnlZNwp58VwNv0tyGUFc4echojSwwb8WA&usqp=CAU" alt="car6"/>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <div class="footer">
+                <div class="container">
+                    <section class="footer-section">
+                        <small>&copy Airbrake corporation</small>
+                        <nav class="nav footer-nav">
+                            <a href="#">Twitter</a>
+                            <a href="#">Voice</a>
+                            <a href="#">Facebook</a>
+                        </nav>
+                    </section>
+                </div>
+            </div>
+        </footer>
+    </section>
+    
+</body>
+ </html>
