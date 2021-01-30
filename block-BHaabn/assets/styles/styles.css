@@ -49,7 +49,7 @@ table {
 /*custom styles*/
 .container{
 	max-width:1400px;
-	border:2px solid pink;
+	/* border:2px solid pink; */
 	margin:0px auto;
 	padding:20px 30px;
 }
@@ -62,16 +62,12 @@ table {
 	background-color:#222946 ;
 }
 .nav{
-	width:50%;
-	
+	width:20%;
+	font-size:20px;
 }
-.brand img{
-	flex: 1 2 20%;
-	display: inline-block;
-}
+
 .flexbox a {
 	display: inline-block;
-	flex: 1 1 60px;
 	color:white;
 	text-decoration:none;
 	font-weight: bold;
@@ -79,22 +75,48 @@ table {
 .flexbox a:nth-child(2){
 	color:#67B767;
 }
-.gallery-section{
-	height:700px;
-}
-.gallery-section img{
-	display:inline-block;
-	width:30%;
-}
 .gallery{
 	display:flex;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
-	align-items: space-evenly;
-	height: 700px;
-	
-
+	justify-content: space-around;
+	align-content: center;
+	/* border:2px solid rgb(72, 72, 73); */
+}
+.gallery-section{
+	border:2px solid blue;
+}
+.col-1-1{
+	width:30%;
+	margin:20px auto;
+	/* border:2px solid pink; */
+}
+.gallery-section img{
+	display:inline-block;
+	width:100%;
+	height:300px;
+	object-fit: cover;
 }
 .wrapper{
 	align-items: center;
+}
+.heading h1{
+	font-size: 40px;
+	text-align: center;
+	color:#521717;
+	font-weight: bold;
+	margin:40px auto;
+	/* border:2px solid grey; */
+}
+.footer{
+	background-color: #222946 ;
+	color:#BCC0D2;
+	font-size:30px;
+}
+.footer .nav{
+	justify-content: space-between;
+	width:5%;
+} 
+.footer .nav i{
+	color:#BCC0D2;
+	font-size:25px;
 }
