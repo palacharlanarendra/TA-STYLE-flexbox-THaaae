@@ -1,0 +1,177 @@
+<!-- 
+- Create a page using flexbox according to the layout shown below.
+
+![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-3.png)
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper. 
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/styles/styles.css"/>
+    <script src="https://kit.fontawesome.com/2bbf3cce3b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container flex">
+            <a class="brand" href="#">
+                <h2>Prism</h2>
+            </a>
+            <nav class="nav">
+                <a href="#">HOME</a>
+                <a href="#">ABOUT</a>
+                <a href="#">GENERIC</a>
+                <a href="#">ELEMENTS</a>
+            </nav>
+        </div>
+        <section class="hero-section">
+            <div class="container flex hero-section-align">
+                <div class="col hero-col-1">
+                    <h1>Welcome to Prism , a free responsive site template by TEMPLATED</h1>
+                </div>
+                <hr class="hr" width="0.1" size="250">
+                <div class="col hero-col-2">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos, quod culpa aliquid est, porro voluptate debitis sint, eos rerum magnam sit accusamus aut repudiandae. Ipsam sunt blanditiis facilis.</p>
+                    <button class="btn btn-new">GET STARTED</button>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="hero-section intro-section">
+            <div class="container flex intro-section-align">
+                <div class="col intro-col-1 hero-col-2">
+                    <h2>Magna feugiat adipisicing</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident amet qui suscipit? Excepturi illum debitis quis reprehenderit, quam ratione, nam maxime assumenda, vero numquam eos dolores nulla earum velit corrupti?Repudiandae nam, perspiciatis, quisquam, veritatis earum vel eum alias accusamus debitis harum ducimus. 
+                        Labore odio error fugiat saepe veritatis quos, necessitatibus, natus eveniet omnis cupiditate voluptatem vitae assumenda esse provident?
+                    </p>
+                    <button class="btn">LEARN MORE</button>
+                </div>
+                <hr class="hr" width="0.1" size="350">
+                <div class="col intro-col-2">
+                    <div>
+                        <i class="fas fa-check"></i>
+                        <span>Ipsum nisl sed cursus magna</span>
+                    </div>
+                    <div>
+                        <i class="fas fa-check"></i>
+                        <span>Ipsum nisl sed cursus magna</span>
+                    </div>
+                    <div>
+                        <i class="fas fa-check"></i>
+                        <span>Ipsum nisl sed cursus magna</span>
+                    </div>
+                    <div>
+                        <i class="fas fa-check"></i>
+                        <span>Ipsum nisl sed cursus magna</span>
+                    </div>
+                    <div>
+                        <i class="fas fa-check"></i>
+                        <span>Ipsum nisl sed cursus magna</span>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <section class="article-section">
+            <div class="container1">
+                <section class="article-gap">
+                    <div class="article flex">
+                        <div class="article-col-1">
+                            <img src="assets/pic01.jpg" alt="buildings"/>
+                        </div>
+                        <div class="article-col-2">
+                            <h3>Ipsum phareta tempus</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci architecto nesciunt nulla nobis quod magnam veritatis sequi? Obcaecati, vero. Modi possimus quod voluptatibus exercitationem beatae minus deleniti maiores est corporis!</p>
+                            <button class="btn">DETAILS</button>
+                        </div>
+                    </div>
+                </section>
+                <section class="article-gap">
+                    <div class="article flex">
+                        <div class="article-col-1">
+                            <img src="assets/pic01.jpg" alt="buildings"/>
+                        </div>
+                        <div class="article-col-2">
+                            <h3>Ipsum phareta tempus</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci architecto nesciunt nulla nobis quod magnam veritatis sequi? Obcaecati, vero. Modi possimus quod voluptatibus exercitationem beatae minus deleniti maiores est corporis!</p>
+                            <button class="btn">DETAILS</button>
+                        </div>
+                    </div>
+                </section>
+                <section class="article-gap">
+                    <div class="article flex">
+                        <div class="article-col-1">
+                            <img src="assets/pic01.jpg" alt="buildings"/>
+                        </div>
+                        <div class="article-col-2">
+                            <h3>Ipsum phareta tempus</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci architecto nesciunt nulla nobis quod magnam veritatis sequi? Obcaecati, vero. Modi possimus quod voluptatibus exercitationem beatae minus deleniti maiores est corporis!</p>
+                            <button class="btn">DETAILS</button>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <section class="middle-btn">
+                <div class="container">
+                        <button class="btn">IPSUM MAGNA TEMPUS</button>
+                </div>
+            </section>
+            <section class="form-section">
+                <div class="container flex form-section-align">
+                    <div class="col form-col-1">
+                        <h2>Orci malesuada</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae corporis animi quisquam provident </p>
+                        <div class="input-row">
+                            <input name="name" placeholder="Name"/>
+                            <input class="email" name="email" placeholder="Email"/>
+                        </div>
+                        <textarea rows="4" cols="50" name="comment" form="usrform" >Message
+                        </textarea>
+                        <button class="btn">SEND MESSAGE</button>
+                        
+                    </div>
+                    <hr class="hr" width="0.1" size="450">
+                    <div class="col intro-col-2">
+                        <div>
+                            <i class="fab fa-twitter"></i>
+                            <span>twitter.com/untitled-tld</span>
+                        </div>
+                        <div>
+                            <i class="fab fa-facebook-f"></i>
+                            <span>facebook.com/untitled-tld</span>
+                        </div>
+                        <div>
+                            <i class="fab fa-instagram-square"></i>
+                            <span>instagram.com/untitled-tld</span>
+                        </div>
+                        <div>
+                            <i class="far fa-envelope"></i>
+                            <span>information@untitled-tld</span>
+                        </div>
+                        <div>
+                            <i class="fas fa-home"></i>
+                            <span>1234 Somewhere Road Suite 9823</span>
+                            <div class="address"><span>Nashville,TN 000000-0000</span></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; Untitled.All rights reserved. Images: Unspalsh.Design:TEMPLATED.</p>
+        </div>
+
+    </footer>
+    
+</body>
+</html>
