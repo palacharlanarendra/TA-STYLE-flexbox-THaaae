@@ -177,6 +177,7 @@ table {
 .article-col-1 img{
 	display:inline-block;
 	width:100%;
+	height:100%;
 }
 .article-col-2{
 	flex:0 1 65%;
