@@ -11,81 +11,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Assignment 2 | flexbox</title>
     <link rel="stylesheet" href="assets/styles/styles.css"/>
     <script src="https://kit.fontawesome.com/2bbf3cce3b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div>
-        <header class="header">
-            <div class="container flex">
-                <div class="brand">
-                    <img src="assets/icons/altcampus-logo.svg" alt="altcampus"/>
-                </div>
-                <nav class="nav" >
-                    <a href="#"><i class="fas fa-bell"></i></a>
-                    <a class="name">Sarah Jone</a>  
-                    <a href="#"><i class="far fa-user"></i></a>
-                    
+    <header class="header">
+        <div class="container">
+            <div class="brand flexbox">
+                <a href="#">
+                    <img src="assets/icons/altcampus-logo.svg" alt="brand"/>
+                </a>
+                <nav class="nav">
+                    <a href="#">
+                        <img src="assets/icons/bell.svg" alt="bell icon"/>           
+                    </a>
+                    <a class="user" href="#">
+                        <span>Sarah Jone</span>
+                        <img src="assets/icons/user.svg" alt="user"/>
+                    </a>
                 </nav>
             </div>
-        </header>
-        <main>
-            <div class="container">
-                <section class="article-section ">
-                    <div class="flex flex-start">
-                        <aside class="col col-1">
-                            <div>
-                                <a href="#"><img src="assets/icons/dashboard.svg"/>Dashboard</a>
-                            </div>
-                            <div id="orange">
-                                <a href="#"><img src="assets/icons/article.svg"/>Articles</a>
-                            </div>
-                            <div>
-                                <a href="#"><img src="assets/icons/analytics.svg"/>Analytics</a>
-                            </div>
-                            <div>
-                                <a href="#"><img src="assets/icons/analytics.svg"/>Inbox</a>
-                            </div>
-                            <div>
-                                <a href="#"><img src="assets/icons/setting.svg"/>Settings</a>
-                            </div>
-                            <div class="button">
-                                <button>
-                                    <a href="#"><img src="assets/icons/log-out.svg"/>Log out</a>
-                                </button>
-                            </div>
-                        </aside>
-                        <article class="col col-2">
-                            <header>
-                                <img class="col-2-image" src="assets/images/01.png" alt="punch today in the face" />
-                                <h1>Why we are doing Altcampus ?</h1>
-                            </header>
-                            <section>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis corporis animi fugiat repudiandae beatae, accusantium voluptatibus tenetur illum qui ipsam.
-                                    Eos, beatae fugit!Provident ducimus et maiores soluta, quaerat dolor quos reiciendis itaque impedit quod voluptas temporibus.
-                                </p>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eius soluta deserunt! Consequatur obcaecati, nesciunt dignissimos illo soluta a quidem distinctio ab accusantium unde, expedita animi accusamus exercitationem atque nemo.
-                                Repudiandae provident sit reiciendis magni odio quasi recusandae! Provident.
-                                </p>
-                                
-                            </section>
-                        </article>
-                    </div>
-                </section>
-            </div>
-        </main>
-        <footer class="footer">
-            <div class="container flex">
-                <small>&copy; AltCampus</small>
-                <nav class="footer-nav">
-                    <a href="#"><i class="fab fa-facebook-square"></i></a>
-                    <a href="#"><i class="fab fa-twitter-square"></i></a>
+        </div>
+    </header>
+    <main>
+        <div class="container flexbox">
+           
+            <aside class="col sidebar ">
+                <nav class="sidebar-nav">
+                    <a href="#">
+                        <img src="assets/icons/dashboard.svg" alt="dashboard"/>
+                        <span>Dashboard</span>
+                    </a>
+                    <a class="orange" href="#">
+                        <img src="assets/icons/article.svg" alt="dashboard"/>
+                        <span >Articles</span>
+                    </a>
+                    <a href="#">
+                        <img src="assets/icons/analytics.svg" alt="dashboard"/>
+                        <span>Analytics</span>
+                    </a>
+                    <a href="#">
+                        <img src="assets/icons/inbox.svg" alt="dashboard"/>
+                        <span>Inbox</span>
+                    </a>
+                    <a href="#">
+                        <img src="assets/icons/setting.svg" alt="dashboard"/>
+                        <span>settings</span>
+                    </a>
                 </nav>
-            </div>
-        </footer>
-    </div>
+                <button>
+                    <img src="assets/icons/log-out.svg" alt="log out" />
+                    <span>Log Out</span>
+                </button>
+            </aside>
+            <article class="col articlebar">
+            
+                <img src="assets/images/01.png" alt="banner"/>
+                <h1>Why we are doing AltCampus?</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, consequuntur. Incidunt ad odit totam laudantium dicta dolor, sequi quia necessitatibus, id quaerat quos voluptas, minus tenetur officiis beatae accusamus odio!Laboriosam eaque officiis maxime, doloribus consequuntur nemo assumenda culpa minus adipisci sapiente illum quos vero aliquid ipsam nisi alias voluptates, voluptatum aut nam fugiat, qui tempore tempora. Eum, dolores dolor!</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero provident molestiae numquam ad aliquid, in velit earum doloribus, quidem odit laudantium cupiditate dolore autem tempore asperiores magni nesciunt quibusdam eius!</p>
+                <button class="btn">Read More</button>
+            
+            </article>
+
+         
+        </div>
+
+    </main>
+    <footer class="footer">
+        <div class="container flexbox">
+            <small>&copy; AltCampus</small>
+            <nav class="footer-nav">
+                <a href="#">
+                    <i class="fab fa-facebook-square"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-twitter-square"></i>
+                </a>
+            </nav>
+        </div>
+    </footer>
     
+   
     
 </body>
 </html>
