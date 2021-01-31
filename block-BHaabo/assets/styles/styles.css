@@ -60,6 +60,7 @@ table {
 }
 .nav{
     color:#4F546B;
+    
    
 }
 .nav a{
@@ -95,6 +96,7 @@ table {
     padding:20px 10%;
     color:#262E4B;
     font-weight:bold;
+    min-width:50%;
 }
 .sidebar-nav{
     display:flex;
@@ -117,7 +119,7 @@ table {
     margin-right:10px;
 }
 .articlebar{
-    background-color: #F2F8FD;
+    background-color: #d7dbdf;
     flex:0 1 65%;
 }
 .articlebar img{
@@ -161,4 +163,7 @@ table {
 .orange{
     color:#E97F38;
     border:2px solid #E97F38;
+}
+.padding{
+    padding:20px;
 }
